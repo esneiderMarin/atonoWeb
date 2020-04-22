@@ -543,6 +543,13 @@ p {
   font-weight: 900;
 }
 
+#hero h3 {
+  color: #fff;
+  margin-bottom: 30px;
+  font-size: 25px;
+  font-weight: 900;
+}
+
 #hero p {
   width: 80%;
   -webkit-animation-delay: 0.4s;
@@ -550,6 +557,12 @@ p {
   color: #fff;
 }
 
+#hero ul {
+  width: 80%;
+  -webkit-animation-delay: 0.4s;
+  animation-delay: 0.4s;
+  color: #fff;
+}
 #hero .carousel-inner .carousel-item {
   transition-property: opacity;
   background-position: center top;
@@ -633,4 +646,12 @@ p {
   padding-bottom: 30px;
   color: #5c768d;
 
+}
+
+.paragraph {
+  color: #fff;
+}
+
+#h4 {
+  Color:white !important;
 }
