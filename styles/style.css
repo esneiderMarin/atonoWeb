@@ -167,6 +167,10 @@
   background: #5e9b42;
 }
 
+.-gray {
+  background: #333333;
+}
+
 .section{
   min-height: 700px;
   padding: 5%;
@@ -557,7 +561,14 @@ p {
   color: #fff;
 }
 
-#hero ul {
+#hero ol{
+  width: 80%;
+  -webkit-animation-delay: 0.4s;
+  animation-delay: 0.4s;
+  color: #fff;
+}
+
+#hero ul{
   width: 80%;
   -webkit-animation-delay: 0.4s;
   animation-delay: 0.4s;
@@ -654,4 +665,34 @@ p {
 
 #h4 {
   Color:white !important;
+}
+
+#contact{
+	background:#333333;
+	color:#f4f4f4;
+	padding-bottom:80px;
+}
+
+#contactus h1,h2,h3 {
+	margin:0 0 35px 0;
+	font-family: 'Patua One', cursive;
+	text-transform: uppercase;
+	letter-spacing:1px;
+}
+
+#contactus p{
+	margin:0 0 25px;
+	font-size:18px;
+	line-height:1.6em;
+}
+#contactus a{
+	color:#26a5d3;
+}
+#contactus a:hover,a:focus{
+	text-decoration:none;
+	color:#26a5d3;
+}
+
+#contactus textarea.form-control{
+    height:100px;
 }
