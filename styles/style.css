@@ -183,10 +183,16 @@ h1 {
   font-weight: 500;
 }
 
+li {
+  text-align: justify;
+  text-justify: inter-word;
+}
+
 p {
   font-size: 14px;
-  font-weight: 300;
+  font-weight: 400;
   margin-top: 0.5em;
+  text-align: justify;
 }
 
 #header {
@@ -322,6 +328,12 @@ p {
   font-family: IcoFont;
   position: absolute;
   right: 15px;
+}
+iframe {
+  margin: 0 auto;
+  background-color: #777;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 @media (max-width: 1366px) {
@@ -473,9 +485,11 @@ p {
 
 .about-lists .content-item p {
   color: #aaaaaa;
-  font-size: 15px;
+  font-size: 14px;
   margin: 0;
   padding: 0;
+  text-align: justify;
+  color: rgb(51, 51, 51);
 }
 
 @media (max-width: 768px) {
@@ -508,7 +522,7 @@ p {
 
 #hero .carousel-item::before {
   content: "";
-  background-color: rgba(13, 30, 45, 0.6);
+  background-color: rgba(0, 0, 0, 0);
   position: absolute;
   height: 100%;
   width: 100%;
@@ -622,6 +636,7 @@ p {
   -webkit-animation-delay: 0.4s;
   animation-delay: 0.4s;
   color: #fff;
+  text-align: justify;
 }
 
 #hero ol {
@@ -751,6 +766,7 @@ h3 {
   margin: 0 0 25px;
   font-size: 18px;
   line-height: 1.6em;
+  text-align: center;
 }
 #contactus a {
   color: #26a5d3;
